@@ -1,0 +1,579 @@
+/*START OF HEADER CODE*/
+
+
+a {
+    color: white;
+}
+a:hover {
+    color: rgba(245, 245, 245, 0.737);
+}
+.left-section{
+    background-image: url(../images/header1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1024px;
+}
+.right-section{
+    background-image: url(../images/header2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1024px;
+}
+#header{
+    position: relative;
+}
+.logo{
+    justify-content: end;
+}
+.left-section .circle{
+    position: absolute;
+    left: 59.4%;
+    top: 220px;
+    z-index: 2;
+}
+.subhead-text{
+    position: absolute;
+    right: -120px;
+    top: 35%;
+    z-index: 3;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+}
+.start{
+    font-weight: 800;
+    font-size: 40px;
+    padding-top: 5.5em;
+}
+.icon-bg{
+    background: white;
+    height: 60px;
+    width: 60px;
+    color: black;
+    margin-top: 1em;
+    margin-left: 45px;
+    border-radius: 50%;   
+    padding-top: 10px;
+}
+.creative, .line{
+    font-size: 25px;
+    padding-top: 10px;
+}
+.careers{
+    padding-top: 5px;
+    font-size: 18px;
+}
+.nav-btns{
+    border: none;
+    margin: 0.5em;
+    background: lightgray;
+    border-radius: 5px;
+    margin-top: 1em;
+    padding: 0.2em 0.7em;
+    font-weight: bold;
+}
+.nav-btns:hover{
+    background-color: white;
+}
+.modal {
+    display: none;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #f4f4f4;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+}
+
+.close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: red;
+}
+
+#register-form {
+    text-align: center;
+}
+
+#register-form label,
+#register-form input {
+    display: block;
+    margin: 10px auto;
+}
+
+#register-form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#register-form button:hover {
+    background-color: #45a049;
+}
+
+
+/*END OF HEADER CODE*/
+
+/*START OF CARDS CODE*/
+.card{
+    height: 691px;
+    width: 386px;
+    padding: 20px;
+    border-radius: 0;
+    border: none;
+}
+.card{
+    background-image: url(../images/card1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 15px;
+}
+.card2{
+    background-image: url(../images/card2.png);
+}
+.card3{
+    background-image: url(../images/card3.png);
+}
+.card:last-child{
+    margin-right: 0;
+}
+
+.website{
+    font-size: 32px;
+    font-weight: 700;
+}
+.custom-btn{
+    padding: 12px 32px;
+    font-weight: bold;
+}
+.custom-width{
+    width: 100%;
+}
+.events-btn{
+    border-radius: 10px;
+    padding: 10px 32px;
+    font-size: 24px;
+    font-weight: 800;
+    background: #007BFF;
+    color: white;
+    border: none;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+/* Rest of your existing CSS styles */
+
+#login-modal {
+    display: none;
+    position: fixed;
+    z-index: 9999; /* Adjust this value as needed */
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+#login-modal .modal-content {
+    background-color: #f4f4f4;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+}
+
+#login-modal .close {
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#login-modal .close:hover {
+    color: red;
+}
+
+#login-form {
+    text-align: center;
+}
+
+#login-form label,
+#login-form input {
+    display: block;
+    margin: 10px auto;
+}
+
+#login-form button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#login-form button:hover {
+    background-color: #0056b3;
+}
+
+/*END OF CARDS CODE*/
+
+/*START OF ACADEMIES CODE */
+#academies{
+    background-image: url(../images/academies.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 738px;
+    margin-top: 7em;
+}
+.community{
+    padding-top: 15em;
+}
+.community h2{
+    font-size: 38px;
+    font-weight: 800;
+}
+.community p{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+
+}
+/*END OF ACADEMIES CODE */
+
+
+/*START OF SCOLARPSHIPS CODE */
+#scolarship-section{
+    background: #D8D8D8;
+}
+.scolarship-card1{
+    height: 440px;
+    background-image: url(../images/scolarship1.png);
+}
+.scolarship-card2{
+    height: 440px;
+    background-image: url(../images/scolarship2.png);
+}
+.scolarship-font{
+    font-size: 18px;
+}
+.cards{
+    margin-bottom: 200px;
+}
+/*END OF SCOLARSHIP CODE*/
+/*START OF INPUT CODE*/
+#input-section{
+    background-image: url(../images/Frame\ 18733.png);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 874px;
+}
+.circle-input{
+    padding-top: 5em;
+    position: relative;
+}
+.input-div{
+    position: absolute;
+    top: 25%;
+    left: 30%;
+}
+.input-div h2{
+    font-weight: 700;
+}
+.input-div p{
+    font-size: 20px;
+    font-weight: 600;
+}
+.form-control{
+    border-radius: 12px;
+}
+.field{
+    font-weight: 700;
+    font-size: 18px;
+}
+.option{
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, #08FCFF, #7D42FF);
+    border-image-slice: 1;
+}
+.send-btn{
+    border-radius: 12px;
+    font-size: 18px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+}
+
+/*END OF INPUT CODE */
+
+/*START OF ELEMENTS CODE */
+.font-weight-700{
+    font-weight: 700;
+    margin-top: 5em;
+}
+.element{
+    background: white;
+    border: 4px solid transparent;
+    border-image: linear-gradient(to right, #08FCFF, #7D42FF);
+    border-image-slice: 1;
+    height: 336px;
+    margin: 0 10px;
+}
+.element p{
+    font-weight: 400;
+}
+.element h3{
+    padding-top: 5rem;
+}
+.elements{
+    margin-top: 4em;
+}
+.bg-image-costum{
+    background-image: url(../images/yellow-circle-1.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+}
+
+/*END OF ELEMENTS CODE */
+
+/*START OF CAROUSSEL CODE */
+ol.carousel-indicators{
+    margin-bottom: -5px;
+}
+.carousel-indicators li{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: #243F60;
+    background-size: cover;
+}
+.opis{
+    background: #243F60;
+}
+.academy{
+    font-size: 32px;
+    font-weight: 800;
+}
+.academy-explanation{
+    font-size: 26px;
+    font-weight: 700;
+}
+.coming{
+    position: relative;
+}
+.coming-soon{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    font-size: 100px;
+    color: #FAAD01;
+    font-weight: 700;
+}
+
+/*END OF CAROUSSEL CODE */
+
+
+/*START OF FOOTER CODE*/
+#footer{
+    background: #243F60;
+}
+.footer-icons{
+    margin-left: -1em;
+}
+.contact-footer{
+    padding-left: 4.5em;
+}
+.events{
+    display: flex;
+    flex-direction: column;
+}
+.events a{
+    color: white;
+    padding-top: 10px;
+    padding-right: 4em;
+}
+.footer-row{
+    padding-top: 10em;
+}
+.events a:hover{
+    text-decoration: none;
+}
+.social:hover{
+    cursor: pointer;
+}
+.font{
+    font-weight: 300;
+}
+/*END OF FOOTER CODE */
+
+
+@media screen and (max-width: 420px) {
+    body{
+        background: linear-gradient(90deg, rgb(253, 253, 253) 0%, rgba(0, 70, 145, 0.7) 100%);
+    }
+    /* START OF HEADER CODE*/
+    .circle{
+        display: none;
+    }
+    .creative, .careers{
+        display: none;
+    }
+    .logo{
+        justify-content: flex-start;
+    }
+    .subhead-text{
+        color: black;
+        top: 10%;
+    }
+    .icon-bg{
+        background: #243F60;
+        color: white;
+    }
+    .left-section, .right-section{
+        height: 650px;
+    }
+    #header{
+        position: relative;
+    }
+    .free-lessons{
+        position: absolute;
+        bottom: 0;
+        left: 20%;
+    }
+    .navbar-toggler {
+        margin-right: 7.5em;
+        margin-top: 3em;
+    }
+    .navbar .container, .navbar .container-fluid, .navbar .container-lg, .navbar .container-md, .navbar .container-sm, .navbar .container-xl {
+        display: block;
+        padding-right: 4em;
+    }
+    
+    /*END OF HEADER CODE */
+
+    /*START OF CARDS CODE */
+    
+    #cards{
+        height: 1750px;
+        background: linear-gradient(90deg, rgb(253, 253, 253) 0%, rgba(0, 70, 145, 0.7) 100%);
+    }
+    .events-btn{
+        margin-top: 59em;
+        font-size: 15px;
+    }
+   .second-cards{
+    flex-direction: column;
+   }
+   .card{
+    height: 300px;
+    margin-top: 1em;
+   }
+   
+    .card3{
+        visibility: hidden;
+    }
+
+    /*END OF CARDS CODE */
+
+    /*START OF ACADEMIES CODE */
+    #academies{
+     background-image: url(../images/Our\ Community@2x.jpg);
+     background-size: contain;
+     height:550px;
+     margin-inline: 1em;
+     
+    }
+    .community{
+        display: none;
+    }
+  
+    /*END OF ACADEMIES CODE */
+
+    /*START OF SCOLARSHIP CODE */
+    #scolarship-section{
+        background: linear-gradient(90deg, rgba(220, 224, 227, 0.7) 0%, rgba(154, 184, 243, 0.7) 54.67%, rgba(0, 123, 255, 0.7) 100%)
+    }
+    .direction{
+        flex-direction: column;
+    }
+    .cards2{
+        margin-bottom: 0;
+    }
+    .scolarship-card1, .scolarship-card2{
+        height: 440px;
+    }
+  /*END OF SCOLARSHIP CODE */
+
+  /*START OF INPUT CODE */
+  #input-section{
+    background: #243F60;
+    margin-top: 1.5em;
+    height: 600px;
+  }
+  .circle-input{
+    display: none;
+  }
+ .input-div{
+    left: 0;
+    margin-top: 1.5em;
+ }
+
+ /*END OF INPUT CODE */
+
+ /*START OF ELEMENTS CODE */
+.success-elements{
+    padding-inline: 1em;
+}
+.elements{
+    flex-direction: column;
+    margin: 0;
+}
+.element{
+    margin: 0;
+    margin-top: 1em;
+}
+.choose{
+    margin-top: 1em;
+}
+/*END OF ELEMENTS CODE */
+
+/*START OF CAROUSSEL CODE */
+.coming-soon{
+    font-size: 40px;
+    top: 5%;
+    left: 15%;
+}
+/*END OF CAROUSSEL CODE */
+
+/*START OF FOOTER CODE */
+.footer-row{
+    flex-direction: column;
+}
+#footer .col-lg-4{
+    margin-top: 1em;
+}
+.contact-footer{
+    padding: 0;
+}
+/*END OF FOOTER CODE */
+}
+.hr{
+    background-image: url(/images/Rectangle\ 28.png);
+}
